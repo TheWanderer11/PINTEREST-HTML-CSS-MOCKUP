@@ -1,0 +1,168 @@
+.site-header{ background: white; }
+
+nav{ width: 100%; 
+    height: 100px;  
+    display: flex;
+    color: white;}
+
+.logo{width: 930px; height: 100px; padding-top: 19px; padding-left: 25px ;}
+ 
+a{ text-decoration: none;
+    color: black;}
+
+.menu ul {  
+    display: flex; 
+    flex-direction: row; 
+    font-size: 16.5px;    
+    font-family: 'Catamaran', sans-serif;
+    padding-top: 13px;
+
+    width: 280px;
+    justify-content: space-around;
+
+    
+}
+
+.botones{
+    width: 250px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around;
+    padding-top: 20px;
+
+}
+
+.boton-inicio{
+    font-size: 16.5px;
+    border-radius: 19px;
+    padding: 8px 12px 4px 12px;
+    color: white;
+    background-color: #E60026;
+    border: none;
+    font-family: 'Catamaran', sans-serif }
+.boton-inicio:hover{ background: #AD081B; transition-duration: 0.3s;}
+
+.boton-registro{
+    font-size: 16.1px;
+    border-radius: 19px;
+    padding: 10px 11px 4px 12px;
+    color:black;
+    background-color: #EFEFEF;
+    border: none;
+    font-family: 'Catamaran', sans-serif;}
+
+.boton-registro:hover{ background: #dbdada; transition-duration: 0.3s;}
+
+
+body {
+    
+    margin: 0;
+    padding: 0;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    section{
+        display: grid;
+        height: 420px;
+    }
+.textos{ 
+
+        margin: 0px; 
+        font-size: 60px;
+        font-weight: 600; 
+        text-align: center;
+        width: 100%;
+        left: 0px;
+        margin: 0px;
+      
+
+        
+}
+
+.texto-p{
+
+    padding-top: px;
+    text-align: center;
+    grid-row: 5 ;
+    padding-bottom: 0px;
+    height: 49px;
+    align-content: center;
+ 
+}
+
+.texto-m{
+
+    grid-row: 7;
+    grid-column: 1;
+    grid-row: 6;
+    height: 177px;
+
+    position: relative;
+    filter: contrast(25), blur(1px);
+}
+
+.slogan{
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    
+    animation: slogan 12s infinite ease-in-out;
+}
+
+.slogan:nth-child(1) {
+    animation-delay: -3s;
+}
+
+.slogan:nth-child(4) {
+    animation-delay: -6s;
+}
+
+.slogan:nth-child(3) {
+    animation-delay: -9s;
+}
+
+.slogan:nth-child(2) {
+    animation-delay: -12s;
+}
+
+@keyframes slogan{
+    0%, 5%, 100% {
+        filter: blur(0px);
+        opacity: 1;
+    }
+    20%, 80% {
+        filter: blur(1em);
+        opacity: 0;
+    }
+}
+
+img{border-radius: 25px;}
+
+.imgs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 250px);
+    gap: 50px;
+    justify-content:space-around;
+    grid-template-rows: masonry;}
+
+.card{max-width: 250px;}
+
+.card-a{ max-width: 250px;
+margin-top: -270px;}
+
+.card-a-2{ max-width: 250px;
+    margin-top: -340px;}
+
+.card-b { max-width: 250px;
+    margin-top: -95px;}
+.card-b-2 { max-width: 250px;
+        margin-top: -100px;}
+.card-b-3 { max-width: 250px;
+            margin-top: -110px;}
+.card-b-4 { max-width: 250px;  
+    margin-top: -70px;}
+
+
+
